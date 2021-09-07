@@ -1,37 +1,19 @@
-# Using Hilt in your Android app
+# Restaurant Search Implementation
 
-This folder contains the source code for the "Using Hilt in your Android app" codelab.
-
-The codelab is built in multiple GitHub branches:
-* `master` is the codelab's starting point.
-* `solution` contains the solution to this codelab.
-
+This folder contains the source code for the "Restaurant Search Implementation".
 
 # Introduction
-Dependency injection is a technique widely used in programming and well suited
-to Android development. By following the principles of dependency injection, you
-lay the groundwork for a good app architecture.
+This project is a simple implementation of searching restaurants by restaurant name,
+cuisine name or dish name. Its built on Kotlin and MVVM architecture and uses jetpack components
+like ViewModel, DataBinding, Dagger Hilt and AppSearch database.
 
-Implementing dependency injection provides you with the following advantages:
-* Reusability of code.
-* Ease of refactoring.
-* Ease of testing.
-
-
-# Pre-requisites
-* Experience with Kotlin syntax.
-* You understand Dependency Injection.
+Note : Has some known bugs in search functionality.
 
 # Getting Started
 1. Install Android Studio, if you don't already have it.
 2. Download the sample.
 3. Import the sample into Android Studio.
 4. Build and run the sample.
-
-
-# Comparison between different branches
-* [Full codelab comparison](https://github.com/googlecodelabs/android-hilt/compare/master...solution)
-
 
 # License
 
