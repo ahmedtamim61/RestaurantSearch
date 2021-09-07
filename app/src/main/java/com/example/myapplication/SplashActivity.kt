@@ -11,7 +11,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 
-const val DELAY = 3000L
+const val DELAY = 2000L
 
 @AndroidEntryPoint
 class SplashActivity : AppCompatActivity() {
@@ -20,10 +20,6 @@ class SplashActivity : AppCompatActivity() {
         val binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        runBlocking {
-            delay(DELAY)
-            binding.splashImage.isVisible = false
-        }
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.search_container_fragment) as NavHostFragment
         navHostFragment.findNavController().navigate(R.id.nav_graph_search)
     }
